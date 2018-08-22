@@ -1,7 +1,8 @@
-package com.example.johanespino.cdoapp;
+package com.johanespino.cdoapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
 
 public class MainActivity extends AppCompatActivity {
 

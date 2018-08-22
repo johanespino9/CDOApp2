@@ -9,4 +9,8 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+
+    <string name="msg_show_qr_to_friend">Lorem ipsum dolor sit amet consectetur adipiscing.</string>
+    <string name="msg_read_qr_to_friend">Lorem ipsum dolor sit amet consectetur adipiscing.</string>
 </resources>

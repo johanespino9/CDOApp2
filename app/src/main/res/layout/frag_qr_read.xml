@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dim_padd">
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="@dimen/dim_padd"
+        android:paddingTop="@dimen/dim_padd"
+        android:text="@string/msg_read_qr_to_friend"
+        android:textSize="@dimen/dim_font_size" />
+
+    <View
+        android:id="@+id/qrView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tvMessage"
+        android:layout_margin="@dimen/dim_padd"
+        android:background="@color/colorPrimaryDark" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dim_padd_halft"
+    android:paddingLeft="@dimen/dim_padd"
+    android:paddingRight="@dimen/dim_padd"
+    android:paddingTop="@dimen/dim_padd_halft">
+
+    <TextView
+        android:id="@+id/tvFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        tools:text="Lorem ipsum dolor" />
+
+    <TextView
+        android:id="@+id/tvCareer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="Sed ut perspiciatis" />
+</LinearLayout>
