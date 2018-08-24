@@ -1,4 +1,7 @@
 apply plugin: 'com.android.application'
+// In your app projects build.gradle file:
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao' // apply plugin
 
 android {
     compileSdkVersion 28
@@ -32,6 +35,7 @@ dependencies {
     implementation 'com.android.support:recyclerview-v7:27.1.1'
     //noinspection GradleCompatible
     implementation 'com.android.support:design:27.1.1'
+    implementation 'org.greenrobot:greendao:3.2.2' // add library
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     //noinspection GradleCompatible
     implementation 'com.android.support:support-vector-drawable:27.1.1'
